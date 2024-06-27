@@ -1,0 +1,35 @@
+.sm-about-img {
+  display: none;
+}
+
+.about-us-page-p {
+  word-break: break-all;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+  .lg-about-img {
+    display: none;
+  }
+
+  .about_us-page-img-content-text {
+    padding: 2rem;
+  }
+
+  .sm-about-img {
+    display: block;
+  }
+
+  .about-us-page-p {
+    font-size: medium;
+  }
+
+  /* .aboutus_section {
+    padding: 2rem;
+  } */
+}

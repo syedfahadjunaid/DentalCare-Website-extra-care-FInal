@@ -1,0 +1,23 @@
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .contactus_section-form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contactus_section-form {
+    width: 100%;
+  }
+
+  .contactus_section-elements {
+    padding: 10px;
+    margin-top: 1rem;
+  }
+
+  .contactus_section-map {
+    width: 100%;
+  }
+}

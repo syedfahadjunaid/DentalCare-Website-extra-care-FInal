@@ -1,0 +1,44 @@
+.contact_card {
+  transition: var(--transition);
+}
+
+.contact_card:hover {
+  color: white;
+}
+
+.contact_card p {
+  text-align: left;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .contact_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact_card p {
+    flex-wrap: wrap;
+    word-break: break-all;
+  }
+
+  .contact_card {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .getintouch_section {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact_cards {
+    display: flex;
+    flex-direction: column;
+  }
+}

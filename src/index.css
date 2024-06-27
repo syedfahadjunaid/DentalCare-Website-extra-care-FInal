@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+:root {
+  --base-font: 'Poppins', sans-serif;
+  --transition: 0.6s ease;
+  --font-color-blue: #1f2b6c;
+  --bg-color-main: #136eb3;
+  --font-subheading-color: #46b649;
+  --color-section-subheading: #159eec;
+  --color-section-heading: #1f2b6c;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  color: var(--color-section-heading);
+}
+
+.subheading {
+  color: var(--color-section-subheading);
+}
+
+.section_margin {
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  font-family: var(--base-font);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: var(--base-font);
+  color: var(--font-color-blue);
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+  .career_section-content {
+    width: 90%;
+  }
+
+  .career_section {
+    padding: 1rem;
+  }
+
+  .career-form {
+    width: 100%;
+  }
+}

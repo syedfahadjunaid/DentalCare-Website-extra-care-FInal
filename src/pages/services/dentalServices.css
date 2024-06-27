@@ -1,0 +1,53 @@
+.homepage_services-subheading {
+  color: var(--color-section-subheading);
+}
+
+.dental-card-text {
+  word-break: break-all;
+}
+
+.homepage_services-heading {
+  color: var(--color-section-heading);
+}
+
+.homepage_section-services-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  /* .homepage_section-one {
+    flex-direction: column;
+  } */
+  .homepage_section {
+    padding: 1rem;
+  }
+
+  .homepage_section-services-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .homepage_section-three {
+    padding: 2rem;
+  }
+
+  .homepage_section-three-p {
+    width: 90%;
+  }
+
+  .homepage_section-three {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .homepage_section-services-cards {
+    grid-template-columns: 1fr;
+  }
+  .homepage_section {
+    padding: 2rem;
+  }
+}

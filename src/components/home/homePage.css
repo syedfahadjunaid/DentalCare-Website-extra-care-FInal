@@ -1,0 +1,184 @@
+.subheading {
+  color: var(--color-section-subheading);
+}
+
+.heading {
+  color: var(--color-section-heading);
+}
+
+/* .homepage_section {
+  height: 100%;
+} */
+
+.homepage-section-two-learnmore {
+  color: var(--bg-color-main);
+}
+
+/* .homepage_section-services-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+/* .upper-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+/* @keyframes slide-in-anim {
+  20% {
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-45%);
+  }
+  75% {
+    transform: translateX(-52%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+} */
+
+.smallScreen_back {
+  display: none;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  /* .homepage_section-one {
+    flex-direction: column;
+  } */
+
+  .homepage_section {
+    padding: 0;
+  }
+
+  .homepage_section-one {
+    padding: 4rem;
+  }
+
+  /* .homepage_section-services-cards {
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  .homepage_section-two-p {
+    width: 100%;
+  }
+
+  .homepage_section-two {
+    padding: 2rem;
+  }
+
+  .homepage_section-three {
+    padding: 2rem;
+  }
+
+  .homepage_section-three-p {
+    width: 100%;
+  }
+
+  .homepage_section-apointment {
+    flex-direction: column;
+  }
+
+  .homepage_appoint-section-left {
+    width: 100%;
+  }
+
+  .homepage_appoint-section-right {
+    width: 100%;
+  }
+
+  .homepage_section-insurance {
+    width: 60%;
+  }
+
+  .smallScreen_back {
+    display: none;
+  }
+
+  .homepage_section-dental-slider {
+    width: 100%;
+  }
+
+  .dentalService-homecontent {
+    flex-direction: column;
+  }
+
+  .dentalService-homecontent-left {
+    width: 100%;
+  }
+
+  .dentalService-homecontent-right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* .homepage_section-services-cards {
+    grid-template-columns: 1fr;
+  } */
+
+  /* .homepage_section-insurance {
+    width: 40%;
+  } */
+
+  .service-img {
+    height: 200px;
+  }
+
+  .map_section {
+    height: auto;
+    width: 100%;
+  }
+
+  .homepage_section-service-cards {
+    flex-direction: column;
+  }
+
+  .services-card {
+    width: 100%;
+  }
+  .homepage_section {
+    padding: 0;
+  }
+  .homepage_section-one {
+    flex-direction: column;
+  }
+
+  .homepage_section-left {
+    padding: 0;
+  }
+
+  .subheading {
+    font-size: 25px;
+  }
+
+  .heading {
+    font-size: 35px;
+  }
+
+  .homepage_section-left p {
+    font-size: 12px;
+  }
+
+  .homepage_section-insurance {
+    width: 100%;
+  }
+
+  .largeScreen_back {
+    display: none;
+  }
+
+  .smallScreen_back {
+    display: block;
+  }
+
+  .mainslider {
+    width: 50%;
+    height: 600px;
+  }
+}

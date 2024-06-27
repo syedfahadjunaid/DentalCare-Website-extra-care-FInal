@@ -1,0 +1,56 @@
+.smallScreen_back {
+  display: none;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .smallScreen_back {
+    display: none;
+  }
+
+  .servicepage-section-content {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .service_section-left-cd {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .service_section-right {
+    width: 100%;
+  }
+
+  .servive_page_slider-content {
+    right: inherit;
+  }
+
+  .servicepage-section-content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .servive_page_slider-content {
+    padding: 0;
+  }
+  .largeScreen_back {
+    display: none;
+  }
+
+  .smallScreen_back {
+    display: block;
+  }
+
+  .service_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .servive_page_slider-content {
+    width: fit-content;
+    padding: 2rem;
+  }
+}
